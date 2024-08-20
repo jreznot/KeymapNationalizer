@@ -8,6 +8,7 @@ class Predefined {
             "German" to GERMAN,
             "Italian" to ITALIAN,
             "Czech" to CZECH,
+            "Slovak" to SLOVAK,
             "Other" to OTHER,
             "Empty" to ""
     )
@@ -71,6 +72,28 @@ private const val CZECH = """; with ů
 9 with í
 0 with é
 """
+
+private const val SLOVAK = """; with ô
+= with '
+- with =
+/ with -
+` with \
+[ with ú
+\ with ¨
+] with )
+' with §
+1 with +
+2 with ľ
+3 with š
+4 with č
+5 with ť
+6 with ž
+7 with ý
+8 with á
+9 with í
+0 with é
+"""
+
 
 private const val OTHER = """; with ;
 = with =
