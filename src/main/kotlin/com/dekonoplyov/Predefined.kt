@@ -8,6 +8,7 @@ class Predefined {
             "German" to GERMAN,
             "Italian" to ITALIAN,
             "Czech" to CZECH,
+            "Danish" to DANISH,
             "Other" to OTHER,
             "Empty" to ""
     )
@@ -70,6 +71,18 @@ private const val CZECH = """; with ů
 8 with á
 9 with í
 0 with é
+"""
+
+private const val DANISH = """` with ½
+- with +
+= with ´
+[ with å
+] with ¨
+; with æ
+' with ø
+# with '
+\ with <
+/ with -
 """
 
 private const val OTHER = """; with ;
